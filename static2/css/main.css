@@ -1,0 +1,95 @@
+body {
+	background-color: #111;
+}
+
+
+
+#title {
+	font-family: 'Average', sans-serif;
+	text-align: center;
+	font-size: 60pt;
+	height: 100px;
+	padding-top: 40px;
+	color: #EEE;
+	margin-left: 20%;
+}
+
+#wrapper {
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	max-width: 760px;
+	font-family: "Puritan", "PT Serif",Georgia,"Helvetica Neue";
+	overflow: auto;
+	line-height: 1.5em;
+}
+
+#content {
+	background-color: rgba(255, 255, 255,1.0);
+	min-height: 300px;
+}
+
+#text {
+	font-size: 1.1em;
+	padding: 40px 10% 40px 10%;
+	color: black;
+	line-height: 1.5em;
+	font-family: "Puritan", "PT Serif",Georgia,"Helvetica Neue";
+}
+
+#text p{
+	margin: 0 0 20px;
+}
+
+#cover {
+	max-width: 100%;
+	height: auto;
+}
+
+#nav {
+	text-align: left;
+	float: left;
+	height: 100%;
+	font-size: 1.4em;
+}
+
+#nav li{
+	border-bottom: 1px dotted white;
+	margin-top: 20px;
+}
+
+#nav li:hover{
+	color: blue;
+	border-bottom: 1px dotted blue;
+}
+
+#nav a {
+	color: #CCC;
+	text-decoration: none;
+}
+#nav a:hover { 
+	color: #AAF;
+}
+#nav a:visited {
+	color: #CCC;
+}
+
+
+
+.left {
+	float: left;
+	width: 10%;
+	height: 100%;
+}
+.right {
+	float: right;
+	width: 80%;
+}
+
+#footer {
+	color: #999;
+	font-family: "Helvetica Neue";
+	margin-top: 20px;
+	text-align: center;
+}

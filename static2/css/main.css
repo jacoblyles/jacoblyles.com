@@ -2,7 +2,18 @@ body {
 	background-color: #111;
 }
 
-
+h1{
+	font-size: 3.0em;
+	font-family: Futura,"Gill Sans",Georgia,"Times New Roman",Times,serif;
+	line-height: 1.5em;
+	margin-bottom: 15px;
+}
+h2{
+	font-size:1.8em;
+	font-family: Futura,"Gill Sans",Georgia,"Times New Roman",Times,serif;
+	line-height: 2.0em;
+	margin-top: 15px;
+}
 
 #title {
 	font-family: 'Average', sans-serif;
@@ -19,8 +30,8 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 20px;
-	max-width: 760px;
-	font-family: "Puritan", "PT Serif",Georgia,"Helvetica Neue";
+	max-width: 800px;
+	font-family: 'PT Serif',Georgia,"Helvetica Neue";
 	overflow: auto;
 	line-height: 1.5em;
 }
@@ -31,21 +42,80 @@ body {
 }
 
 #text {
-	font-size: 1.1em;
+	font-size: 1.0em;
 	padding: 40px 10% 40px 10%;
 	color: black;
 	line-height: 1.5em;
-	font-family: "Puritan", "PT Serif",Georgia,"Helvetica Neue";
+	font-family: 'PT Serif',Georgia,"Helvetica Neue";
 }
 
 #text p{
 	margin: 0 0 20px;
 }
 
+#text li{
+	margin-top: 1em;
+}
+
 #cover {
 	max-width: 100%;
 	height: auto;
 }
+
+#contact {
+	border-radius: 6px;
+	background-color: #FFC;
+	display: inline-block;
+	padding:10px;
+}
+
+#resume {
+	margin-top: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#resume h2{
+	padding-left: 20px;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	background-color: #CCC;
+}
+
+#resume .item{
+	margin: 20px 0 0 0;
+}
+
+#resume .header {
+	font-family: Futura,"Gill Sans",Georgia,"Times New Roman",Times,serif;
+}
+
+#resume .position {
+	display: inline;
+}
+
+#resume .company {
+	display: inline;
+	position: absolute;
+	left: 55%;
+}
+
+#resume .date {
+	display: inline;
+	float: right;
+}
+
+#resume .description {
+	margin: 10px 0 0 10px;
+}
+
+.item ul {
+	margin: 10px 0 15px 15px;
+	font-size: 0.95em;
+	list-style-type: circle;
+}
+
+
 
 #nav {
 	text-align: left;
@@ -75,8 +145,6 @@ body {
 	color: #CCC;
 }
 
-
-
 .left {
 	float: left;
 	width: 10%;
@@ -93,3 +161,4 @@ body {
 	margin-top: 20px;
 	text-align: center;
 }
+

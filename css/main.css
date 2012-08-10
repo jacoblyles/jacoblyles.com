@@ -14,6 +14,9 @@ h2{
 	line-height: 2.0em;
 	margin-top: 15px;
 }
+li {
+	list-style-type: circle;
+}
 
 #title {
 	font-family: 'Average', sans-serif;
@@ -122,6 +125,10 @@ h2{
 	float: left;
 	height: 100%;
 	font-size: 1.4em;
+}
+
+#nav ul{
+	list-style-type: none;
 }
 
 #nav li{

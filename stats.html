@@ -49,9 +49,9 @@
 					<h2><a href="coursera_age">Coursera course age distribution</a></h2>
 					<div id="coursera-age-histogram"></div>
 					<p>I'm taking a quantum computation class at Coursera. On the forum for the course there was an informal age poll posted. I was surprised by an unexpectedly large population of people responding aged over 40 and under 18. This made me curious - is Coursera primarily being used to satisfy curiosity only by people far away from college years, or by people looking to supplement or replace a college education? I used some web tools to find out.</p>
-					<p>First I wrote a scraper bookmarklet in JavaScript to pull down the age data from the comments on the Coursera forum. Here's the code: </p>
+					<p>First I wrote a scraper bookmarklet in JavaScript to pull down the age data from the comments on the Coursera forum. My strategy was to pull out the comment text and search for two digit numbers. Here's the code: </p>
 					<p><script src="https://gist.github.com/3260825.js"> </script></p>
-					<p>Notice that I throw out comments with more than one two digit number in them. I do this because a cursory glance showed that this happened when people were speculating on the overall age distribution and not just reporting their age.</p>
+					<p>I had to do a little data cleaning. Some people speculated on the overall distribution of ages, and these comments tended to have more than one two-digit number in them. So I threw those out.</p>
 					<p>The next step was to throw this data into a histogram using <a href="http://d3js.org/">D3.js</a>. I modified the <a href="http://bl.ocks.org/3048450">D3 histogram example</a> to be a little more reusable. Here is the code:</p>
 					<p><script src="https://gist.github.com/3312709.js"> </script></p>
 				</div>
